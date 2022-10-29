@@ -1,0 +1,42 @@
+body {
+    background-color:black;
+    
+}
+.button{
+    width:58px;
+    height:27px;
+    background:white;
+    border-radius:60px;
+    border:none ;
+    padding:2px 2px;
+    transition:background 0.5s;
+}
+button div{
+    width:23px;
+    height:23px;
+    border-radius:50%;
+    background:black;
+    transition:background .5s, margin-left 0.5s;
+}
+.active{
+    background:black;
+}
+.active div{
+    background:white;
+    margin-left:31px;
+
+}
+.sup{
+    width:100px;
+    height:70px;
+    padding:30px;
+    font-weight:800;
+    font-size:30px;
+    display:none;
+    background:green;
+    opacity:0;
+   /* transition:opacity 0.5s;*/
+}
+.on{
+    background:white;
+}
